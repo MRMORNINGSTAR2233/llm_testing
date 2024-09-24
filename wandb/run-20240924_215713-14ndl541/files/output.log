@@ -1,0 +1,27 @@
+Epoch 1/10:   0%|                                                                                                                                                                         | 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/akshay/Desktop/DSU/cot2.py", line 200, in <module>
+    train_advanced_cot_model(cot_model, train_dataloader, epochs=10, lr=1e-5, fp16=True)
+  File "/Users/akshay/Desktop/DSU/cot2.py", line 125, in train_advanced_cot_model
+    for step, batch in enumerate(train_dataloader):
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/Users/akshay/Desktop/DSU/cot2.py", line 26, in __getitem__
+    inputs = self.tokenizer.encode_plus(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3228, in encode_plus
+    padding_strategy, truncation_strategy, max_length, kwargs = self._get_padding_truncation_strategies(
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 2959, in _get_padding_truncation_strategies
+    raise ValueError(
+ValueError: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.

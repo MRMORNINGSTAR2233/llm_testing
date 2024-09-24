@@ -1,0 +1,18 @@
+{"time":"2024-09-24T21:58:41.467117+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T21:58:41.467196+05:30","level":"INFO","msg":"created symlink","path":"/Users/akshay/Desktop/DSU/wandb/run-20240924_215841-uc2naqoy/logs/debug-core.log"}
+{"time":"2024-09-24T21:58:41.467357+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T21:58:41.467371+05:30","level":"INFO","msg":"created symlink","path":"/Users/akshay/Desktop/DSU/wandb/run-20240924_215841-uc2naqoy/logs/debug-core.log"}
+{"time":"2024-09-24T21:58:41.474125+05:30","level":"INFO","msg":"created new stream","id":"uc2naqoy"}
+{"time":"2024-09-24T21:58:41.474178+05:30","level":"INFO","msg":"stream: started","id":"uc2naqoy"}
+{"time":"2024-09-24T21:58:41.474193+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"uc2naqoy"}}
+{"time":"2024-09-24T21:58:41.474288+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"uc2naqoy"}}
+{"time":"2024-09-24T21:58:41.474324+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"uc2naqoy"}}
+{"time":"2024-09-24T21:58:42.186873+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T21:58:42.188862+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-24T21:58:47.87441+05:30","level":"INFO","msg":"stream: closing","id":"uc2naqoy"}
+{"time":"2024-09-24T21:58:47.874473+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-24T21:58:47.87461+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-24T21:58:49.967164+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"uc2naqoy"}}
+{"time":"2024-09-24T21:58:49.967218+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"uc2naqoy"}}
+{"time":"2024-09-24T21:58:49.967199+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"uc2naqoy"}}
+{"time":"2024-09-24T21:58:49.967697+05:30","level":"INFO","msg":"stream: closed","id":"uc2naqoy"}

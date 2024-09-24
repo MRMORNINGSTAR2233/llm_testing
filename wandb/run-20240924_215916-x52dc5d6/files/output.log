@@ -1,0 +1,21 @@
+Epoch 1/10:   0%|                                                                                                                                                                         | 0/1 [00:00<?, ?it/s]/Users/akshay/Desktop/DSU/cot2.py:131: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=fp16):
+/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/amp/autocast_mode.py:265: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Epoch 1/10:   0%|                                                                                                                                                                         | 0/1 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/akshay/Desktop/DSU/cot2.py", line 201, in <module>
+    train_advanced_cot_model(cot_model, train_dataloader, epochs=10, lr=1e-5, fp16=True)
+  File "/Users/akshay/Desktop/DSU/cot2.py", line 132, in train_advanced_cot_model
+    outputs = model(input_ids, attention_mask=attention_mask)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akshay/Desktop/DSU/cot2.py", line 81, in forward
+    hidden_states = [base_outputs.last_hidden_state[-1]]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CausalLMOutputWithCrossAttentions' object has no attribute 'last_hidden_state'

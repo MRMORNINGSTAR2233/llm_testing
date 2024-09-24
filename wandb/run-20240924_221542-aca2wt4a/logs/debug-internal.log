@@ -1,0 +1,20 @@
+{"time":"2024-09-24T22:15:42.891474+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T22:15:42.891528+05:30","level":"INFO","msg":"created symlink","path":"/Users/akshay/Desktop/DSU/wandb/run-20240924_221542-aca2wt4a/logs/debug-core.log"}
+{"time":"2024-09-24T22:15:42.89167+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T22:15:42.891681+05:30","level":"INFO","msg":"created symlink","path":"/Users/akshay/Desktop/DSU/wandb/run-20240924_221542-aca2wt4a/logs/debug-core.log"}
+{"time":"2024-09-24T22:15:42.897385+05:30","level":"INFO","msg":"created new stream","id":"aca2wt4a"}
+{"time":"2024-09-24T22:15:42.897423+05:30","level":"INFO","msg":"stream: started","id":"aca2wt4a"}
+{"time":"2024-09-24T22:15:42.897451+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"aca2wt4a"}}
+{"time":"2024-09-24T22:15:42.897461+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"aca2wt4a"}}
+{"time":"2024-09-24T22:15:42.897464+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"aca2wt4a"}}
+{"time":"2024-09-24T22:15:44.032793+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T22:15:44.034405+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-24T22:15:54.073975+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T22:16:04.071876+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T22:16:08.845963+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-24T22:16:08.84622+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-24T22:16:12.052824+05:30","level":"INFO","msg":"stream: closing","id":"aca2wt4a"}
+{"time":"2024-09-24T22:16:12.052872+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"aca2wt4a"}}
+{"time":"2024-09-24T22:16:12.052895+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"aca2wt4a"}}
+{"time":"2024-09-24T22:16:12.052916+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"aca2wt4a"}}
+{"time":"2024-09-24T22:16:12.053087+05:30","level":"INFO","msg":"stream: closed","id":"aca2wt4a"}
