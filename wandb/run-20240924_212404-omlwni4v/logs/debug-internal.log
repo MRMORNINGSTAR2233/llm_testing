@@ -1,0 +1,30 @@
+{"time":"2024-09-24T21:24:04.587057+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T21:24:04.587144+05:30","level":"INFO","msg":"created symlink","path":"/Users/akshay/Desktop/DSU/wandb/run-20240924_212404-omlwni4v/logs/debug-core.log"}
+{"time":"2024-09-24T21:24:04.587301+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-24T21:24:04.587314+05:30","level":"INFO","msg":"created symlink","path":"/Users/akshay/Desktop/DSU/wandb/run-20240924_212404-omlwni4v/logs/debug-core.log"}
+{"time":"2024-09-24T21:24:04.594662+05:30","level":"INFO","msg":"created new stream","id":"omlwni4v"}
+{"time":"2024-09-24T21:24:04.594714+05:30","level":"INFO","msg":"stream: started","id":"omlwni4v"}
+{"time":"2024-09-24T21:24:04.594733+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"omlwni4v"}}
+{"time":"2024-09-24T21:24:04.594757+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"omlwni4v"}}
+{"time":"2024-09-24T21:24:04.59474+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"omlwni4v"}}
+{"time":"2024-09-24T21:24:05.20312+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-24T21:24:05.20453+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-24T21:24:15.307716+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:24:25.27292+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:24:35.236068+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:24:45.233184+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:24:55.245416+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:25:05.238075+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:25:15.240671+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:25:25.22917+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:25:35.234298+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-09-24T21:25:36.852111+05:30","level":"INFO","msg":"stream: closing","id":"omlwni4v"}
+{"time":"2024-09-24T21:25:36.852167+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-24T21:25:36.852225+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-24T21:25:37.243281+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-24T21:25:37.24331+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-24T21:25:37.243323+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-24T21:25:38.673967+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"omlwni4v"}}
+{"time":"2024-09-24T21:25:38.673981+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"omlwni4v"}}
+{"time":"2024-09-24T21:25:38.673945+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"omlwni4v"}}
+{"time":"2024-09-24T21:25:38.675474+05:30","level":"INFO","msg":"stream: closed","id":"omlwni4v"}

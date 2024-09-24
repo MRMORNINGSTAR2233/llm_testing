@@ -1,0 +1,20 @@
+Epoch 1/3:   0%|                                                                                                                                                                      | 0/11243 [00:00<?, ?it/s]/Users/akshay/Desktop/DSU/cot.py:156: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=fp16):
+/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/amp/autocast_mode.py:265: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Epoch 1/3:   0%|                                                                                                                                                                      | 0/11243 [01:31<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/akshay/Desktop/DSU/cot.py", line 276, in <module>
+    main()
+  File "/Users/akshay/Desktop/DSU/cot.py", line 233, in main
+    train_advanced_cot_model(
+  File "/Users/akshay/Desktop/DSU/cot.py", line 162, in train_advanced_cot_model
+    scaler.scale(loss).backward()
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/Users/akshay/Desktop/DSU/.venv/lib/python3.11/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
