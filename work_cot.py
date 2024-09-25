@@ -244,8 +244,10 @@ def main():
 
     # Example inference
     def generate_with_cot(model, prompt, max_length=300):
-        input_ids = model.tokenizer.encode(prompt, return_tensors="pt").to(model.device)
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        input_ids = model.tokenizer.encode(prompt, return_tensors="pt").to(device)
         attention_mask = torch.ones_like(input_ids)
+
 
         output_ids = model.generate(
             input_ids,

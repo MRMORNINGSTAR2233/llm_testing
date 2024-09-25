@@ -130,8 +130,9 @@ def train_advanced_cot_model(
     fp16: bool = True,
     logging_steps: int = 100
 ):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model.to(device)
+    self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    self.to(self.device)
+    
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
     total_steps = len(train_dataloader) * epochs // gradient_accumulation_steps
